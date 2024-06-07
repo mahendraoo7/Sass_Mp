@@ -8,7 +8,7 @@
 .header {
   display: flex;
   background-color: red;
-  height: 50px;
+  height: 60px;
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
@@ -95,6 +95,71 @@
   background-color: black;
   font-size: 25px;
   margin: 15px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 12px;
+  }
+  .header .header2 {
+    padding-left: 4%;
+  }
+  .header a {
+    padding-right: 30px;
+  }
+  .header i {
+    padding-right: 30px;
+    font-size: 20px;
+  }
+  .Image1 {
+    height: 300px;
+  }
+  .LEVEL {
+    font-size: 40px;
+  }
+  .LEVEL2 {
+    font-size: 15px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    height: 200px;
+  }
+  .footer .part1 {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .part1 h5 {
+    padding-top: 20px;
+    opacity: 0.5;
+  }
+  .footer #icon {
+    margin-top: 10px;
+    padding-right: 12px;
+  }
+  .footer .part2 {
+    margin-left: -40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+  .footer .part2 .Support {
+    padding-top: -10px;
+    padding-left: 50px;
+    opacity: 0.5;
+    font-size: 11px;
+  }
+  .footer .part3 {
+    text-align: center;
+    opacity: 0.4;
+  }
+  .footer .part3 #icon2 {
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    margin: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
